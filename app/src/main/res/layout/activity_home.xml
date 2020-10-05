@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rooksoto.c4q.nyc.c4qhackathonapp.HomeActivity">
+
+    <ImageView
+        android:id="@+id/iv_home_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7" />
+
+    <LinearLayout
+        android:id="@+id/ll_main_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <!--Empty LL-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/ll_buttons_top_row"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tv_find_svc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/buttons_home_margin"
+                android:layout_weight="1"
+                android:background="@drawable/corner"
+                android:gravity="center"
+                android:padding="@dimen/buttons_home_padding"
+                android:text="@string/find_service"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/buttons_home_text_size" />
+
+            <TextView
+                android:id="@+id/tv_emergency_urgent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/buttons_home_margin"
+                android:layout_weight="1"
+                android:background="@drawable/corner"
+                android:gravity="center"
+                android:padding="@dimen/buttons_home_padding"
+                android:text="@string/emergency_urgent"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/buttons_home_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_buttons_middle_row"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tv_favorites"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/buttons_home_margin"
+                android:layout_weight="1"
+                android:background="@drawable/corner"
+                android:gravity="center"
+                android:padding="@dimen/buttons_home_padding"
+                android:text="@string/my_favs"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/buttons_home_text_size" />
+
+            <TextView
+                android:id="@+id/tv_estimate_cost"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/buttons_home_margin"
+                android:layout_weight="1"
+                android:background="@drawable/corner"
+                android:gravity="center"
+                android:padding="@dimen/buttons_home_padding"
+                android:text="@string/estimate_cost"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/buttons_home_text_size" />
+
+        </LinearLayout>
+
+        <!--Empty LL-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</FrameLayout>

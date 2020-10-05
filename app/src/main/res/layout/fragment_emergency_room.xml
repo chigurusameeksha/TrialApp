@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin">
+
+
+    <ImageView
+        android:id="@+id/er_map"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/emergency_map" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="6dp">
+
+
+        <TextView
+            android:id="@+id/map_facility_name"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:paddingBottom="2dp"
+            android:text="Elmhurst Hospital Center"
+            android:textColor="@color/blue"
+            android:textSize="20dp" />
+
+
+        <ImageButton
+            android:id="@+id/share_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/fave_btn"
+            android:background="@null"
+            android:paddingRight="12dp"
+            android:layout_marginLeft="60dp"
+            android:tint="@color/primaryBlue"
+            android:paddingTop="6dp"
+            android:src="@drawable/share_variant" />
+
+
+        <ImageButton
+            android:id="@+id/fave_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:baselineAlignBottom="true"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="6dp"
+            android:tint="@color/colorAccent"
+            android:src="@drawable/heart" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/map_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:layout_marginTop="4dp"
+        android:text="79-01 Broadway, Elmhurst, NY 11373"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/urg_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/urg_address"
+        android:layout_marginTop="4dp"
+        android:text="(718) 334-4000"
+        android:textSize="16dp" />
+
+
+</LinearLayout>
+
+
+    <!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:id="@+id/map"--><!--android:name="com.google.android.gms.maps.SupportMapFragment" />-->

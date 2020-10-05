@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="@dimen/profile"
+        android:layout_height="@dimen/profile"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="74dp" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/inputName"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="@string/input_name" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:id="@+id/hiUserTV"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hello " />
+
+        <EditText
+            android:id="@+id/userName"
+            android:textSize="30dp"
+            android:textColor="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Lily"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/yourFamTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Your Family Size Is: " />
+
+        <TextView
+            android:text="@string/three"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            android:id="@+id/userFamSizeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/yourIncomeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Your Combined Income Is: "/>
+        <TextView
+            android:id="@+id/userIncomeTV"
+            android:text="$37,061-$46,325"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/prefBoro"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Preferred Borough: "/>
+    <TextView
+        android:id="@+id/userBoro"
+        android:textColor="@color/blue"
+        android:text="@string/bklyn"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+</LinearLayout>
+<LinearLayout
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/preferedLanguage"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pref_language" />
+
+    <Spinner
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:id="@+id/language_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/primaryBlue"
+        android:text="@string/save"
+        android:textColor="@color/white" />
+</LinearLayout>

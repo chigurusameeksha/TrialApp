@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingLeft="12dp"
+    android:layout_height="200dp">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="385dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/hhc_facility_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingTop="26dp"
+            android:textColor="@color/blue"
+            android:text="Facility Name"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/hhc_borough"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:textColor="@color/blue"
+            android:text="Queens"
+            android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/hhc_facility_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:text="Facility Type"
+        android:textStyle="bold"
+        android:textSize="16dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:paddingBottom="4dp"
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:id="@+id/hhc_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16 E 24th Street,"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/hhc_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dp"
+            android:text="New York"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/hhc_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dp"
+            android:text="NY"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/hhc_zip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:paddingLeft="6dp"
+            android:text="10020"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/hhc_phone"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="999-9999"
+            android:textSize="16dp" />
+
+        <ImageButton
+            android:id="@+id/share_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:alpha="0.35"
+            android:layout_marginTop="6dp"
+            android:paddingRight="12dp"
+            android:src="@drawable/share_variant"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:layout_alignBottom="@+id/fave_btn" />
+
+        <ImageButton
+            android:id="@+id/fave_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:alpha="0.35"
+            android:layout_marginTop="6dp"
+            android:paddingRight="20dp"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:src="@drawable/heart" />
+
+    </LinearLayout>
+
+</LinearLayout>

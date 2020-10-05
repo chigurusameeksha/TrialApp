@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nyu_clinic_address">16 East 16th Street, New York, NY 10003</string>
+    <string name="weill_cornell_address">505 East 70th Street, 1st Floor, New York, NY 10021</string>
+    <string name="mount_sinai_address">17 East 102nd Street, 7th Floor, New York, NY 10029</string>
+    <string name="st_anthonys_address">421 East 155th Street, Bronx, NY 10455</string>
+    <string name="echo_clinic_address">1894 Walton Avenue, Bronx, NY 10453</string>
+    <string name="ryan_clinic_uws">110 West 97th Street </string>
+    <string name="ryan_clinic_les">279 East 3rd Street </string>
+    <string name="ryan_clinic_hk">645 10th Ave</string>
+    <string name="callen_lorde_clinic_address">356 West 18th Street</string>
+    <string name="charles_wang_clinic_address">125 Walker Street </string>
+    <string name="health_dept_sexual_harlem">2238 5th Avenue, 1st Floor, New York, NY 10037</string>
+    <string name="health_dept_sexual_manhattanville">21 Old Broadway, 2nd Floor, New York, NY 10027</string>
+    <string name="health_dept_sexual_riverside">160 West 100th Street, New York, NY 10025</string>
+    <string name="health_dept_sexual_morrisania">1309 Fulton Avenue, 2nd Floor, Bronx, NY 10456</string>
+    <string name="health_dept_sexual_crown_heights">1218 Prospect Place, 1st Floor, Brooklyn, NY 11213</string>
+    <string name="health_dept_sexual_fort_greene">295 Flatbush Avenue Ext., 2nd Floor, Brooklyn, NY 11201</string>
+    <string name="health_dept_sexual_corona">34-33 Junction Boulevard, Jackson Heights, NY 11372</string>
+    <string name="health_dept_sexual_jamaica">90-37 Parsons Boulevard, 1st Floor, Jamaica, NY 11432</string>
+    <string name="planned_parenthood_bronx">349 E 149th St, 2nd Floor, Bronx, NY 10451</string>
+    <string name="planned_parenthood_manhattan">26 Bleecker St, New York, NY 10012</string>
+    <string name="planned_parenthood_queens">21-41 45th Rd, Long Island City, NY 11101</string>
+    <string name="planned_parenthood_brooklyn">44 Court St, Brooklyn, NY 11201</string>
+    <string name="planned_parenthood_staten_island">23 Hyatt St, Staten Island, NY 10301</string>
+    <string name="bellevue">462 1st Avenue,New York, NY 10016</string>
+    <string name="columbia">1790 Broadway, New York, NY 10019</string>
+    <string name="eastside_gynecology">144 E 44th St #225, New York, NY 10017</string>
+    <string name="parkmed_physicians">800 2nd Ave #6, New York, NY 10017</string>
+    <string name="charles_wang_clinic_address_chtwn">268 Canal Street, New York, NY 10013  </string>
+    <string name="charles_wang_clinic_address_flushing">136-26 37th Avenue 3rd Floor, Flushing, NY 11354  </string>
+
+    <string name="app_name">AccessHealth</string>
+    <string name="find_service">Find a Service</string>
+    <string name="emergency_urgent">Emergency/Urgent Care</string>
+    <string name="free_resources">Free Resources</string>
+    <string name="go_favs">Go to Favorites</string>
+    <string name="estimate_cost">Estimate Cost</string>
+    <string name="emergency_room">Emergency Rooms</string>
+    <string name="urgent_care">Urgent Care</string>
+    <string name="my_favs">Favorites</string>
+    <string name="service_question">What kind of service are you looking for?</string>
+    <string name="category">Category</string>
+    <string name="borough">Borough</string>
+    <string name="bronx">The Bronx</string>
+    <string name="bklyn">Brooklyn</string>
+    <string name="manhattan">Manhattan</string>
+    <string name="queens">Queens</string>
+    <string name="staten">Staten Island</string>
+    <string name="pap">Pap Smear</string>
+    <string name="birth_control">Birth Control</string>
+    <string name="pediatrician">Pediatrician</string>
+    <string name="sti">STI Testing</string>
+    <string name="planned_parenthood">Planned Parenthood</string>
+    <string name="search">Search</string>
+    <string name="profile">My Profile</string>
+    <string name="medicaid_medicare">Medicaid/Medicare Eligibility</string>
+    <string name="near_me">Near Me</string>
+    <string name="name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="phone">Phone:</string>
+    <string name="recent_search">Recently Searched:</string>
+    <string name="who_eligible">Who May Be Eligible?</string>
+    <string name="family_size">Family Size</string>
+    <string name="income">Income Range</string>
+    <string name="your_fee">According to your selections, your HHC fee level is:</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="fam_size_spinner_prompt">Family Size</string>
+    <string name="click_here_to_calculate_medical_fees">Click Here to calculate medical fees.</string>
+    <string name="how_many_family_members_live_in_your_household">How many family members live in your household?</string>
+    <string name="total_family_income">Total Family Income</string>
+    <string name="what_is_your_total_family_income_level">What is your TOTAL family income level?</string>
+    <string name="determine_eligibility">Sliding Scale Eligibility</string>
+    <string name="check_fee_level">Check Fee Level</string>
+    <string name="view_medical_costs">View Medical Costs</string>
+
+    <string-array name="family_size">
+        <item>Select:</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7 or more</item>
+    </string-array>
+
+    <string-array name="fam_size_1">
+        <item>Select:</item>
+        <item name="fam_one_level_one">$0-$16,335</item>
+        <item name="fam_one_level_two">$16,336-$21,780</item>
+        <item name="fam_one_level_three">$21,781-$27,225</item>
+        <item name="fam_one_level_four">$27,226-$32,670</item>
+        <item name="fam_one_level_five">$32,671-$38,115</item>
+        <item name="fam_one_level_six">$38,116-$43,560</item>
+        <item name="fam_one_level_seven">$43,561+</item>
+    </string-array>
+
+    <string-array name="fam_size_2">
+        <item>Select:</item>
+        <item name="fam_two_level_one">$0-$22,065</item>
+        <item name="fam_two_level_two">$22,066-$29,420</item>
+        <item name="fam_two_level_three">$29,421-$36,775</item>
+        <item name="fam_two_level_four">$36,776-$44,130</item>
+        <item name="fam_two_level_five">$44,131-$51,485</item>
+        <item name="fam_two_level_six">$51,486-$58,840</item>
+    </string-array>
+
+    <string-array name="fam_size_3">
+        <item>Select:</item>
+        <item name="fam_three_level_one">$0-$27,795</item>
+        <item name="fam_three_level_two">$27,796-$37,060</item>
+        <item name="fam_three_level_three">$37,061-$46,325</item>
+        <item name="fam_three_level_four">$46,326-$55,590</item>
+        <item name="fam_three_level_five">$55,591-$64,855</item>
+        <item name="fam_three_level_six">$64,856-$74,120</item>
+        <item name="fam_three_level_seven">$74,121+</item>
+    </string-array>
+
+    <string-array name="fam_size_4">
+        <item>Select</item>
+        <item name="fam_four_level_one">$0-$33,525</item>
+        <item name="fam_four_level_two">$33,526-$44,700</item>
+        <item name="fam_four_level_three">$44,701-$55,875</item>
+        <item name="fam_four_level_four">$55,876-$67,050</item>
+        <item name="fam_four_level_five">$67,051-$78,225</item>
+        <item name="fam_four_level_six">$78,226-$89,400</item>
+        <item name="fam_four_level_seven">$89,401+</item>
+    </string-array>
+
+    <string-array name="fam_size_5">
+        <item>Select:</item>
+        <item name="fam_five_level_one">$0-$39,255</item>
+        <item name="fam_five_level_two">$39,256-$52,340</item>
+        <item name="fam_five_level_three">$52,341-$65,425</item>
+        <item name="fam_five_level_four">$65,426-$78,510</item>
+        <item name="fam_five_level_five">$78,511-$91,595</item>
+        <item name="fam_five_level_six">$91,596-$104,680</item>
+        <item name="fam_five_level_seven">$104,681+</item>
+    </string-array>
+
+    <string-array name="fam_size_6">
+        <item>Select:</item>
+        <item name="fam_six_level_one">$0-$44,985</item>
+        <item name="fam_six_level_two">$44,986-$59,980</item>
+        <item name="fam_six_level_three">$59,981-$74,975</item>
+        <item name="fam_six_level_four">$74,976-$89,970</item>
+        <item name="fam_six_level_five">$89,971-$104,965</item>
+        <item name="fam_six_level_six">$104,966-$119,960</item>
+        <item name="fam_six_level_seven">$119,961+</item>
+    </string-array>
+
+    <string-array name="fam_size_7">
+        <item>Select:</item>
+        <item name="fam_seven_level_one">$0-$50,715</item>
+        <item name="fam_seven_level_two">$50,716-$67,620</item>
+        <item name="fam_seven_level_three">$67,621-$84,525</item>
+        <item name="fam_seven_level_four">$84,526-$101,430</item>
+        <item name="fam_seven_level_five">$101,431-$118,335</item>
+        <item name="fam_seven_level_six">$118,336-$135,240</item>
+        <item name="fam_seven_level_seven">$135,241+</item>
+    </string-array>
+
+
+    <!--<string name="fam_one_level_one">$0-$16,335</string>-->
+    <!--<string name="fam_two_level_one">$0-$22,065</string>-->
+    <!--<string name="fam_three_level_one">$0-$27,795</string>-->
+    <!--<string name="fam_four_level_one">$0-$33,525</string>-->
+    <!--<string name="fam_five_level_one">$0-$39,255</string>-->
+    <!--<string name="fam_six_level_one">$0-$44,985</string>-->
+    <!--<string name="fam_seven_level_one">$0-$50,715</string>-->
+    <!--<string name="fam_one_level_two">"$16,336-$21,780</string>-->
+    <!--<string name="fam_two_level_two">$22,066-$29,420</string>-->
+    <!--<string name="fam_three_level_two">$27,796-$37,060</string>-->
+    <!--<string name="fam_four_level_two">$33,526-$44,700</string>-->
+    <!--<string name="fam_five_level_two">$39,256-$52,340</string>-->
+    <!--<string name="fam_six_level_two">$44,986-$59,980</string>-->
+    <!--<string name="fam_seven_level_two">$50,716-$67,620</string>-->
+    <!--<string name="fam_one_level_three">$21,781-$27,225</string>-->
+    <!--<string name="fam_two_level_three">$29,421-$36,775</string>-->
+    <!--<string name="fam_three_level_three">$37,061-$46,325</string>-->
+    <!--<string name="fam_four_level_three">$44,701-$55,875</string>-->
+    <!--<string name="fam_five_level_three">$52,341-$65,425</string>-->
+    <!--<string name="fam_six_level_three">$59,981-$74,975</string>-->
+    <!--<string name="fam_seven_level_three">$67,621-$84,525</string>-->
+    <!--<string name="fam_one_level_four">$27,226-$32,670</string>-->
+    <!--<string name="fam_two_level_four">$36,776-$44,130</string>-->
+    <!--<string name="fam_three_level_four">$46,326-$55,590</string>-->
+    <!--<string name="fam_four_level_four">$55,876-$67,050</string>-->
+    <!--<string name="fam_five_level_four">$65,426-$78,510</string>-->
+    <!--<string name="fam_six_level_four">$74,976-$89,970</string>-->
+    <!--<string name="fam_seven_level_four">$84,526-$101,430</string>-->
+    <!--<string name="fam_one_level_five">$32,671-$38,115</string>-->
+    <!--<string name="fam_two_level_five">$44,131-$51,485</string>-->
+    <!--<string name="fam_three_level_five">$55,591-$64,855</string>-->
+    <!--<string name="fam_four_level_five">$67,051-$78,225</string>-->
+    <!--<string name="fam_five_level_five">$78,511-$91,595</string>-->
+    <!--<string name="fam_six_level_five">$89,971-$104,965</string>-->
+    <!--<string name="fam_seven_level_five">$101,431-$118,335</string>-->
+    <!--<string name="fam_one_level_six">$38,116-$43,560</string>-->
+    <!--<string name="fam_two_level_six">$51,486-$58,840</string>-->
+    <!--<string name="fam_three_level_six">$64,856-$74,120</string>-->
+    <!--<string name="fam_four_level_six">$78,226-$89,400</string>-->
+    <!--<string name="fam_five_level_six">$91,596-$104,680</string>-->
+    <!--<string name="fam_six_level_six">$104,966-$119,960</string>-->
+    <!--<string name="fam_seven_level_six">$118,336-$135,240</string>-->
+    <!--<string name="fam_one_level_seven">$43,561+</string>-->
+    <!--<string name="fam_two_level_seven">$58,841+</string>-->
+    <!--<string name="fam_three_level_seven">$74,121+</string>-->
+    <!--<string name="fam_four_level_seven">$89,401+</string>-->
+    <!--<string name="fam_five_level_seven">$104,681+</string>-->
+    <!--<string name="fam_six_level_seven">$119,961+</string>-->
+    <!--<string name="fam_seven_level_seven">$135,241+</string>-->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="medical_services">
+        <item>Please choose a service</item>
+        <item>Pap Smear</item>
+        <item>Birth Control</item>
+        <item>Emergency Room</item>
+        <item>Urgent Care</item>
+        <item>Pediatrician</item>
+        <item>STD Testing</item>
+        <item>Planned Parenthood</item>
+    </string-array>
+
+    <string-array name="borough_list">
+        <item>Please choose a location</item>
+        <item>Brooklyn</item>
+        <item>Queens</item>
+        <item>Manhattan</item>
+        <item>Bronx</item>
+        <item>Staten Island</item>
+    </string-array>
+
+    <string name="input_name">Input Name</string>
+    <string name="save">SAVE</string>
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="pref_language">Preferred Language:</string>
+    <string name="estimated_cost">Estimated Cost</string>
+    <string name="estimated_costs">Sliding Scale Costs</string>
+    <string name="please_select_a_service">Please Select a Service:</string>
+    <string name="based_on_your_hhc_fee_level_the_cost_of_this_service_will_be">Based on your HHC fee level, the cost of this service will be:</string>
+    <string name="select_a_service_below">Select a Service Below</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="your_family_size">Your Family Size Is: </string>
+
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+
+</resources>
+
