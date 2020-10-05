@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rooksoto.c4q.nyc.c4qhackathonapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="rooksoto.c4q.nyc.c4qhackathonapp.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="rooksoto.c4q.nyc.c4qhackathonapp.BaseActivity" />
+        <activity android:name="rooksoto.c4q.nyc.c4qhackathonapp.NavActivity" />
+        <activity android:name="rooksoto.c4q.nyc.c4qhackathonapp.HomeActivity" />
+        <activity android:name="rooksoto.c4q.nyc.c4qhackathonapp.MapsActivity" />
+        <activity android:name="rooksoto.c4q.nyc.c4qhackathonapp.TabActivity" />
+        <activity android:name="rooksoto.c4q.nyc.c4qhackathonapp.LocationActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBydhgAAVv-c7IshW-kzBfPhrEPRtvL-e8" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

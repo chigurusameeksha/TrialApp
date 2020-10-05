@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/profile_pic"
+            android:id="@+id/nav_profile"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/nav_find_svc"
+            android:icon="@drawable/magnify"
+            android:title="@string/find_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <item
+            android:id="@+id/nav_emrgency_urgent"
+            android:icon="@drawable/ambulance"
+            android:title="@string/emergency_urgent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/heart"
+            android:title="@string/my_favs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <item
+            android:id="@+id/nav_estimated_cost"
+            android:icon="@drawable/cash_multiple"
+            android:title="@string/estimated_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <item
+            android:id="@+id/nav_medicaid"
+            android:icon="@drawable/heart_pulse"
+            android:title="@string/medicaid_medicare"/>
+
+        <item
+            android:id="@+id/nav_near"
+            android:icon="@drawable/google_maps"
+            android:title="@string/near_me"/>
+    </group>
+</menu>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/fave_location1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="56dp"
+        android:paddingLeft="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/urg_facility_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingTop="26dp"
+            android:text="Planned Parenthood"
+            android:textColor="@color/blue"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/urg_borough"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/urg_facility_name"
+            android:paddingBottom="3dp"
+            android:text="Brooklyn"
+            android:textColor="@color/blue"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/urg_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/urg_borough"
+            android:paddingBottom="3dp"
+            android:text="44 Court Street, Brooklyn, NY 11201"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/urg_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/urg_address"
+            android:text="718-999-9999"
+            android:textSize="16dp" />
+
+        <ImageButton
+            android:id="@+id/fave_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/urg_address"
+            android:background="@null"
+            android:paddingRight="20dp"
+            android:src="@drawable/heart"
+            android:tint="@color/accent" />
+
+
+        <ImageButton
+            android:id="@+id/share_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/fave_btn"
+            android:layout_below="@id/urg_address"
+            android:layout_toLeftOf="@id/fave_btn"
+            android:background="@null"
+            android:paddingRight="12dp"
+            android:src="@drawable/share_variant"
+            android:tint="@color/primaryBlue" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fave_location2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/fave_location1"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="@dimen/activity_vertical_margin">
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="385dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/dividerColor" />
+
+
+        <TextView
+            android:id="@+id/urg_facility_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider2"
+            android:paddingBottom="2dp"
+            android:paddingTop="26dp"
+            android:text="Jamaica Clinic"
+            android:textColor="@color/blue"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/urg_borough2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/urg_facility_name2"
+            android:paddingBottom="3dp"
+            android:text="Queens"
+            android:textColor="@color/blue"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/urg_address2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/urg_borough2"
+            android:paddingBottom="3dp"
+            android:text="90-37 Parsons Boulevard, 1st Floor, Jamaica, NY 11372"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/urg_phone2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/urg_address2"
+            android:text="718-999-9999"
+            android:textSize="16dp" />
+
+        <ImageButton
+            android:id="@+id/fave_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/urg_address2"
+            android:background="@null"
+            android:paddingRight="20dp"
+            android:src="@drawable/heart"
+            android:tint="@color/accent" />
+
+
+        <ImageButton
+            android:id="@+id/share_btn2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/fave_btn2"
+            android:layout_below="@id/urg_address2"
+            android:layout_toLeftOf="@id/fave_btn2"
+            android:background="@null"
+            android:paddingRight="12dp"
+            android:src="@drawable/share_variant"
+            android:tint="@color/primaryBlue" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/fave_location3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/fave_location2"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:visibility="visible">
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="385dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/dividerColor" />
+
+
+        <TextView
+            android:id="@+id/urg_facility_name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider3"
+            android:paddingBottom="2dp"
+            android:paddingTop="26dp"
+            android:text="Queens Hospital Center"
+            android:textColor="@color/blue"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/urg_borough3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/urg_facility_name3"
+            android:paddingBottom="3dp"
+            android:text="Queens"
+            android:textColor="@color/blue"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/urg_address3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/urg_borough3"
+            android:paddingBottom="3dp"
+            android:text="82-70 164th Street, Jamaica, NY 11432"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/urg_phone3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/urg_address3"
+            android:text="718-883-3000"
+            android:textSize="16dp" />
+
+        <ImageButton
+            android:id="@+id/fave_btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/urg_address3"
+            android:background="@null"
+            android:paddingRight="20dp"
+            android:src="@drawable/heart"
+            android:tint="@color/accent" />
+
+
+        <ImageButton
+            android:id="@+id/share_btn3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/urg_address3"
+            android:layout_toLeftOf="@id/fave_btn3"
+            android:background="@null"
+            android:paddingRight="12dp"
+            android:src="@drawable/share_variant"
+            android:tint="@color/primaryBlue" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fave_location3"
+        android:paddingLeft="16dp">
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="385dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/dividerColor" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

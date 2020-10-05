@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.1.1\b59b6ee8d6ecc03e672d253800430343493a6ed8\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_d6aa07ba0be9b7bae9cf1d379d061ff137a3f2d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-10.0.1_df651a7751850c9251a81b3e4abaa67c192b531d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_6a7783ce43381f6bf258242145cfc1e694fd6a52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.1.1_635f437a21ba5582c6865c210bbe89adbb8b3e21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_af89449a889d611f445907707498d1e56830842f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_bb055fb0d88180f1e0655c04db1a697dc01e6b82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.0.1_7ebf213ccdbf8e6521dddd6710c1c38f502d7c31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.0.1_b3cb522ecf46020cd55aa0cb6366d05a280795f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.1_52da8bf986e5a8f7628767aac918d6ebaf99708a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_39d761a7a55c3f51709be5d399d44a4dc15fdf10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\okio-1.8.0_3b81deadaa35a1addc9021ad71743c916024baea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_948182e9e3b5937aa145535b118fac7ed9399218.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_54263086d67f37401c29674109f85f1961dcb042.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_bb6ed10e3f867eddefd1c3e01b6ce1d8cc063360.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_7ef51cb11a1007a7d695ef86f7bd7128dbd14037.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\gson-2.7_257fd4530ca02fef567a0cd109e61770367eff7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_ed42950ad32c093bdce4ef369a77fdd0d495899a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.0.1_6e9da42bd3ac33566f955dcf6456c52e57d42bc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_a975284f54deb490dcd1894c38a54ec77ba97783.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_954978c526f71876448e7519a8b1c2dc498e5d49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\.gradle\caches\modules-2\files-2.1\nl.qbusict\cupboard\2.1.4\ba5bc66fad1fc20aeb8a74f0013b04185fd9a3a9\cupboard-2.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba5bc66fad1fc20aeb8a74f0013b04185fd9a3a9">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\cupboard-2.1.4_385d266b1946abb3f82a685e0297754e8416c57e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.1.1_226f450edb4eaf12e89912e13d850cabd1520e41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_34df3b3917d4a60da60e935255e202e9a6577a76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\91950\Downloads\C4QHackathonApp-master\C4QHackathonApp-master\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_1a59de20974522cf79da0d37fce1714be56be956.jar" />
+    </item>
+
+</items>
